@@ -1,2 +1,2 @@
 # Corrigindo-o-c-digo-dela
-Correção
+Corrigindo um código sem fazer muita firula e sem modificar de maneira brusca

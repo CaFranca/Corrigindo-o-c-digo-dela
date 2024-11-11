@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={{url_for('static', filename='stylesheet.css' )}}>
+    <title>Página Não Encontrada</title>
+</head>
+
+<body>
+    <div class="container">
+        <center><h1>404 - Página Não Encontrada</h1></center><br>
+        
+        <div class="flash-messages">
+            
+            <div class="alert alert-{{ category }}"></div>
+            
+        </div>
+        
+        <center><a href="{{ url_for('blueprint.login') }}"><button type="button">Voltar para a página inicial</button></a></center>
+    </div>
+</body>
+
+</html>

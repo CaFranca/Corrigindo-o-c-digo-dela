@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+    <link rel="stylesheet" href={{url_for('static', filename='stylesheet.css' )}}>
     <title>Página Não Encontrada</title>
 </head>
 
@@ -18,7 +18,7 @@
             
         </div>
         
-        <center><a href="{{ url_for('blueprint.index') }}"><button type="button">Voltar para a página inicial</button></a></center>
+        <center><a href="{{ url_for('blueprint.login') }}"><button type="button">Voltar para a página inicial</button></a></center>
     </div>
 </body>
 

@@ -6,7 +6,7 @@ blueprint_default = Blueprint("blueprint", __name__)
 # Página inicial
 @blueprint_default.route("/")
 def index():
-    return redirect(url_for('blueprint.index'))
+    return redirect(url_for('blueprint.login'))
 
 #login do usuario
 @blueprint_default.route("/login", methods=["GET", "POST"])
